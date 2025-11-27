@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full:latest
 
+RUN sudo apt-get update && sudo apt-get install -y python3-pip
+RUN alias python=python3
 USER gitpod
 
 RUN npm jest@29.7.0 jest-environment-jsdom@29.7.0 -g
