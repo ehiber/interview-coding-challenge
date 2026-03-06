@@ -35,7 +35,7 @@ learnpack start
 The repository includes:
 
 1. `exercises/00-welcome`: Introductory readme-only step.
-2. `exercises/02-...` to `exercises/16-...`: Coding challenges.
+2. `exercises/01-...` to `exercises/15-...`: Coding challenges.
 
 Most exercise folders include:
 

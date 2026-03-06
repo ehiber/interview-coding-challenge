@@ -35,7 +35,7 @@ learnpack start
 El repositorio incluye:
 
 1. `exercises/00-welcome`: Paso introductorio solo con readme.
-2. `exercises/02-...` hasta `exercises/16-...`: Retos de codigo.
+2. `exercises/01-...` hasta `exercises/15-...`: Retos de codigo.
 
 La mayoria de carpetas de ejercicios incluye:
 

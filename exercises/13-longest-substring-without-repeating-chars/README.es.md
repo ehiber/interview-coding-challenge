@@ -22,3 +22,5 @@ Dada una cadena, encuentra la longitud de la subcadena mas larga que no contenga
 ## Pista
 
 El enfoque de ventana deslizante permite resolverlo en `O(n)`.
+
+
