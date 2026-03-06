@@ -32,7 +32,12 @@ learnpack start
 
 ## Exercise structure
 
-Each exercise folder includes:
+The repository includes:
+
+1. `exercises/00-welcome`: Introductory readme-only step.
+2. `exercises/02-...` to `exercises/16-...`: Coding challenges.
+
+Most exercise folders include:
 
 1. `app.js`: Starter file for students.
 2. `README.md`: Instructions in English.
