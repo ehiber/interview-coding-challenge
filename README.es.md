@@ -32,7 +32,12 @@ learnpack start
 
 ## Estructura de ejercicios
 
-Cada carpeta de ejercicio incluye:
+El repositorio incluye:
+
+1. `exercises/00-welcome`: Paso introductorio solo con readme.
+2. `exercises/02-...` hasta `exercises/16-...`: Retos de codigo.
+
+La mayoria de carpetas de ejercicios incluye:
 
 1. `app.js`: Archivo inicial para estudiantes.
 2. `README.md`: Instrucciones en ingles.
