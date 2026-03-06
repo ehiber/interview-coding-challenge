@@ -25,3 +25,5 @@ it('returns [1,2] for [3,2,4],6', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith([1,2]);
 });
+
+

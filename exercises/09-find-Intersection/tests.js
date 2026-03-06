@@ -24,3 +24,5 @@ it('returns false when no intersection', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith(false);
 });
+
+

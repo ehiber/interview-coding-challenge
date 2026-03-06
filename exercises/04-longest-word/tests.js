@@ -40,3 +40,5 @@ it('returns "abc" for "abc def ghi"', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith('abc');
 });
+
+
