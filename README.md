@@ -1,38 +1,46 @@
-<!-- hide -->
-This repository is a LearnPack project used at [4Geeks Academy](https://4geeksacademy.com).
-<!-- endhide -->
-
-# Interview Coding Challenges
-
-[Ver en espanol](./README.es.md)
-
-Practice interview-style coding challenges with progressive exercises.
-
-## Before You Start
-
-1. Install LearnPack globally:
-`npm install @learnpack/learnpack -g`
-2. Start the exercises from the project root:
-`learnpack start`
-
-## Project Structure
-
-- `exercises/01-hello-world` to `exercises/15-maximum-subarray-sum`
-- Each exercise contains:
-- `README.md` (English instructions)
-- `README.es.md` (Spanish instructions)
-- `app.js` (student starter file)
-- `tests.js` (automated checks)
-
-## Attribution
-
-Author: 4Geeks Academy
-Contributors:
-- [@ehiber](https://github.com/ehiber) - Ehiber
-- [@marcogonzalo](https://github.com/marcogonzalo) - Marco Gonzalo Gomez Perez
-- [@alesanchezr](https://github.com/alesanchezr) - Alejandro Sanchez
-- [@Charlytoc](https://github.com/Charlytoc) - Charly Chacon
+# Interview Coding Challenges at 4Geeks Academy
 
 <!-- hide -->
-Keep English and Spanish README files synchronized whenever content changes.
+> By [@ehiber](https://github.com/ehiber), [@marcogonzalo](https://github.com/marcogonzalo), [@alesanchezr](https://github.com/alesanchezr), [@Charlytoc](https://github.com/Charlytoc) and contributors at [4Geeks Academy](https://4geeksacademy.com/)
+
+[![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
+[![twitter](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
+
+*Estas instrucciones estan disponibles en [espanol](./README.es.md).*
 <!-- endhide -->
+
+Practice interview-style coding challenges with progressive exercises and isolated auto-evaluation.
+
+## One-click setup (recommended)
+
+Open in [Codespaces](https://codespaces.new/) and run:
+
+```bash
+learnpack start
+```
+
+## Local setup
+
+1. Install LearnPack:
+```bash
+npm i @learnpack/learnpack -g
+```
+2. From the folder where `learn.json` exists, run:
+```bash
+learnpack start
+```
+
+## Exercise structure
+
+Each exercise folder includes:
+
+1. `app.js`: Starter file for students.
+2. `README.md`: Instructions in English.
+3. `README.es.md`: Instrucciones en espanol.
+4. `tests.js`: Exercise test entry.
+5. `solution.hide.js` (on selected exercises): Hidden reference solution.
+
+## Notes
+
+- Keep `README.md` and `README.es.md` synchronized when content changes.
+- Student files are intentionally unsolved in `app.js`.
