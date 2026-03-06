@@ -28,3 +28,5 @@ it('handles all 4-letter names', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith(["John", "Paul", "Ringo"].filter(n => n.length === 4));
 });
+
+

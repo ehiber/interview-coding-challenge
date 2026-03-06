@@ -1,7 +1,19 @@
-# `05` Letter changes
+# `05` Letter Changes
 
-Have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. 
+Have the function `LetterChanges(str)` take the `str` parameter being passed and modify it using the following algorithm:
 
-Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). 
+1. Replace every letter in the string with the next letter in the alphabet (`c` becomes `d`, `z` becomes `a`).
+2. Capitalize every vowel in the transformed string (`a`, `e`, `i`, `o`, `u`).
+3. Keep spaces, numbers, and symbols unchanged.
 
-Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.
+## Examples
+
+```txt
+Input: "hello*3"
+Output: "ifmmp*3"
+```
+
+```txt
+Input: "fun times!"
+Output: "gvO Ujnft!"
+```

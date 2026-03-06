@@ -40,3 +40,5 @@ it('prints numbers otherwise', () => {
   expect(console.log.mock.calls[1][0]).toBe(2);
   expect(console.log.mock.calls[3][0]).toBe(4);
 });
+
+

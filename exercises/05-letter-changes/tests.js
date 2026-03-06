@@ -12,19 +12,21 @@ function mockPrompt(str) {
 }
 
 it('transforms "hello*3" into "ifmmp*3"', () => {
-  mockReadline('hello*3');
+  mockPrompt('hello*3');
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith('ifmmp*3');
 });
 
-it('transforms "fun times!" into "gvo tjnft!"', () => {
-  mockReadline('fun times!');
+it('transforms "fun times!" into "gvO Ujnft!"', () => {
+  mockPrompt('fun times!');
   require('./app.js');
-  expect(console.log).toHaveBeenCalledWith('gvn tjnft!');
+  expect(console.log).toHaveBeenCalledWith('gvO Ujnft!');
 });
 
 it('handles the z wrap-around: "abc xyz" -> "bcd yzA"', () => {
-  mockReadline('abc xyz');
+  mockPrompt('abc xyz');
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith('bcd yzA');
 });
+
+

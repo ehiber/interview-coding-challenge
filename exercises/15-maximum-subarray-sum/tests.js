@@ -25,3 +25,5 @@ it('returns 23 for [5,4,-1,7,8]', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith(23);
 });
+
+

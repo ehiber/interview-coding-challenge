@@ -7,11 +7,13 @@ beforeEach(() => {
 });
 
 it('calls console.log exactly once', function () {
-  require("./app.js");
+  require('./app.js');
   expect(console.log).toHaveBeenCalledTimes(1);
 });
 
 it('calls console.log with 233168', function () {
-  require("./app.js");
+  require('./app.js');
   expect(console.log).toHaveBeenCalledWith(233168);
 });
+
+

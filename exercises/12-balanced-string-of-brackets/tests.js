@@ -24,3 +24,5 @@ it('returns false for ({[)]}', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith(false);
 });
+
+

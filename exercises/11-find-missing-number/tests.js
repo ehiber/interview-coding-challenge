@@ -24,3 +24,5 @@ it('finds missing number 3', () => {
   require('./app.js');
   expect(console.log).toHaveBeenCalledWith(3);
 });
+
+
