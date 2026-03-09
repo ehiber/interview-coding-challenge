@@ -8,8 +8,10 @@ Have the function FindIntersection(strArr) read the array of strings stored in s
 Input: ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]
 Output: 1,4,13
 ```
+Explanation: values `1`, `4`, and `13` appear in both sorted lists, so they are returned joined by commas.
 
 ```
 Input: ["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]
 Output: 1,9,10
 ```
+Explanation: only the numbers present in both arrays are kept in ascending order.

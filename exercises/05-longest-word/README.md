@@ -8,9 +8,11 @@ Have the function `LongestWord(sen)` take the `sen` parameter being passed and r
 Input: "fun&!! time"
 Output: time
 ```
+Explanation: punctuation is ignored, so valid words are `fun` and `time`; `time` is longer.
 
 ```
 Input: "I love dogs"
 Output: love
 ```
+Explanation: `love` and `dogs` have the same length, so the first one in the sentence is returned.
 

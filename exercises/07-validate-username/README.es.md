@@ -15,8 +15,10 @@ Si el nombre de usuario es válido, el programa debe devolver la cadena `true`; 
 Input: "aa_"
 Output: false
 ```
+Explicacion: rompe varias reglas: tiene menos de 4 caracteres y termina con guion bajo.
 
 ```
 Input: "u__hello_world123"
 Output: true
 ```
+Explicacion: empieza con letra, solo usa caracteres validos, cumple longitud y no termina en guion bajo.

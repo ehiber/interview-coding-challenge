@@ -8,10 +8,12 @@ Haga que la función `LongestWord(sen)` tome el parámetro `sen` que se le pasa 
 Input: "fun&!! time"
 Output: time
 ```
+Explicacion: se ignora la puntuacion, por eso las palabras validas son `fun` y `time`; `time` es mas larga.
 
 ```
 Input: "I love dogs"
 Output: love
 ```
+Explicacion: `love` y `dogs` tienen la misma longitud, asi que se devuelve la primera que aparece.
 
 

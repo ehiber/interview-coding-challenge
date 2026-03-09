@@ -12,10 +12,12 @@ Have the function `LetterChanges(str)` take the `str` parameter being passed and
 Input: "hello*3"
 Output: "ifmmp*3"
 ```
+Explanation: each letter shifts one position (`h->i`, `e->f`, ...), while `*` and `3` stay unchanged.
 
 ```txt
 Input: "fun times!"
 Output: "gvO Ujnft!"
 ```
+Explanation: after shifting letters, vowels in the transformed text (`o`, `u`) are capitalized.
 
 

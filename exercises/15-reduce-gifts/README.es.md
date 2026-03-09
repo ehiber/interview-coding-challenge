@@ -26,6 +26,7 @@ k = 3
 threshold = 14
 Salida: 1
 ```
+Explicacion: la ventana `[4,6,5]` suma `15` (> 14), por eso quitar un elemento (por ejemplo `6`) hace que todas las ventanas de 3 cumplan.
 
 ```txt
 prices = [9, 6, 7, 2, 7, 2]
@@ -33,5 +34,6 @@ k = 3
 threshold = 14
 Salida: 2
 ```
+Explicacion: mas de una ventana de tamano 3 supera `14`, asi que hacen falta al menos dos eliminaciones para cumplir en todo el arreglo.
 
 

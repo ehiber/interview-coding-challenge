@@ -13,6 +13,12 @@ isBalanced("({[)]}");         // Returns: false
 isBalanced("((())");          // Returns: false
 isBalanced("({[]}){}[]");     // Returns: true
 ```
+Explanation:
+- `()` is a direct matching pair.
+- `([{}])` is properly nested and closes in reverse opening order.
+- `({[)]}` fails because `)` tries to close `[` (wrong order/type).
+- `((())` fails because one opening `(` is never closed.
+- `({[]}){}[]` combines valid nested and sequential balanced groups.
 
 ## Rules:
 1. The input string can contain any combination of brackets and other characters. Ignore non-bracket characters.

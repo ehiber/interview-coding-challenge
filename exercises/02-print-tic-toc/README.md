@@ -19,3 +19,5 @@ Toc
 TicToc
 ```
 
+Explanation: the program iterates from 1 to 100. It prints numbers by default, replaces multiples of 3 with `Tic`, multiples of 5 with `Toc`, and multiples of both with `TicToc`.
+
