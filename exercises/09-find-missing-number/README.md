@@ -16,6 +16,10 @@ findMissingNumber([3, 7, 1, 2, 8, 4, 5]); // Returns: 6
 findMissingNumber([1, 2, 4, 5, 6]);       // Returns: 3
 findMissingNumber([2, 3, 1, 5]);          // Returns: 4
 ```
+Explanation:
+- In the first case, the range is `1..8`, and only `6` is missing.
+- In the second case, the range is `1..6`, and only `3` is missing.
+- In the third case, the range is `1..5`, and only `4` is missing.
 
 #### Requirements:
 - The solution should be efficient (O(n) or O(n log n)).

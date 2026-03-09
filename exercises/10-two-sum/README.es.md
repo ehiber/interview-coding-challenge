@@ -12,9 +12,11 @@ Puedes asumir que cada entrada tiene exactamente una solución y no puedes usar 
 
 - Entrada: `nums = [3, 2, 4]`, `target = 6`
   - Salida: `[1, 2]`
+  - Explicacion: `nums[1] + nums[2] = 2 + 4 = 6`.
 
 - Entrada: `nums = [3, 3]`, `target = 6`
   - Salida: `[0, 1]`
+  - Explicacion: los dos indices distintos que contienen `3` suman `6`.
 
 ## Rendimiento
 Intenta una solución eficiente, idealmente con complejidad de tiempo `O(n)`.

@@ -13,6 +13,12 @@ isBalanced("({[)]}");         // Devuelve: false
 isBalanced("((())");          // Devuelve: false
 isBalanced("({[]}){}[]");     // Devuelve: true
 ```
+Explicacion:
+- `()` es un par que abre y cierra correctamente.
+- `([{}])` esta bien anidado y cierra en el orden correcto.
+- `({[)]}` falla porque `)` intenta cerrar `[` (orden/tipo incorrecto).
+- `((())` falla porque queda un `(` sin cerrar.
+- `({[]}){}[]` combina grupos anidados y secuenciales balanceados.
 
 ## Reglas:
 1. La cadena de entrada puede contener cualquier combinación de corchetes y otros caracteres. Ignora los caracteres que no sean corchetes.

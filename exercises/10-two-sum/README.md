@@ -12,9 +12,11 @@ You may assume that each input would have exactly one solution, and you may not 
 
 - Input: `nums = [3, 2, 4]`, `target = 6`
   - Output: `[1, 2]`
+  - Explanation: `nums[1] + nums[2] = 2 + 4 = 6`.
 
 - Input: `nums = [3, 3]`, `target = 6`
   - Output: `[0, 1]`
+  - Explanation: the two different indices containing `3` sum to `6`.
 
 ## Feeling Confident?
 

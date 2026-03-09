@@ -15,9 +15,11 @@ Return `true` if valid, otherwise return `false`.
 Input: "aa_"
 Output: false
 ```
+Explanation: it fails multiple rules: length is below 4 and it ends with underscore.
 
 ```txt
 Input: "u__hello_world123"
 Output: true
 ```
+Explanation: it starts with a letter, has valid characters only, valid length, and does not end with underscore.
 

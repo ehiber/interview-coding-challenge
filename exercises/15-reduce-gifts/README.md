@@ -26,6 +26,7 @@ k = 3
 threshold = 14
 Output: 1
 ```
+Explanation: window `[4,6,5]` sums to `15` (> 14), so removing one item (for example `6`) makes all size-3 windows valid.
 
 ```txt
 prices = [9, 6, 7, 2, 7, 2]
@@ -33,5 +34,6 @@ k = 3
 threshold = 14
 Output: 2
 ```
+Explanation: more than one size-3 window exceeds `14`, so at least two removals are needed to satisfy the condition everywhere.
 
 

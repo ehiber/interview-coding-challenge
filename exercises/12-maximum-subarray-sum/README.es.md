@@ -10,9 +10,11 @@ Dado un arreglo de enteros `nums`, encuentra el subarreglo contiguo (con al meno
 
 - Entrada: `nums = [1]`
   - Salida: `1`
+  - Explicacion: al tener un solo elemento, el mejor subarreglo contiguo es `[1]`.
 
 - Entrada: `nums = [5, 4, -1, 7, 8]`
   - Salida: `23`
+  - Explicacion: la suma de todo el arreglo es `23`, y ese es el maximo subarreglo contiguo.
 
 ## Recomendación
 

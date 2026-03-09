@@ -19,3 +19,5 @@ Toc
 TicToc
 ```
 
+Explicacion: el programa recorre del 1 al 100. Imprime el numero normalmente, pero reemplaza multiplos de 3 por `Tic`, multiplos de 5 por `Toc` y multiplos de ambos por `TicToc`.
+

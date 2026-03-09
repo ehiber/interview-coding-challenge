@@ -10,9 +10,11 @@ Given an integer array `nums`, find the contiguous subarray (containing at least
 
 - Input: `nums = [1]`
   - Output: `1`
+  - Explanation: with a single element, the best contiguous subarray is `[1]`.
 
 - Input: `nums = [5, 4, -1, 7, 8]`
   - Output: `23`
+  - Explanation: the whole array sum is `23`, which is the maximum possible contiguous sum.
 
 ## Feeling confident?
 

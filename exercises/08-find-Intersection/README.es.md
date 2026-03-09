@@ -8,9 +8,11 @@ Haga que la función `FindIntersection(strArr)` lea el arreglo de cadenas `strAr
 Input: ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]
 Output: 1,4,13
 ```
+Explicacion: los valores `1`, `4` y `13` aparecen en ambas listas, por eso se devuelven separados por comas.
 
 ```
 Input: ["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]
 Output: 1,9,10
 ```
+Explicacion: solo se conservan los numeros que existen en ambos arreglos, manteniendo orden ascendente.
 
