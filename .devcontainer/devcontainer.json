@@ -13,17 +13,21 @@
 					"*.md": "vscode.markdown.preview.editor"
 				}
 			},
-			"extensions": ["learn-pack.learnpack-vscode"]
+			"extensions": ["learn-pack.learnpack-vscode", "ms-python.python", "ms-python.vscode-pylance"]
 		}
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "3.11"
+		}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"onCreateCommand": "npm i jest@29.7.0 jest-environment-jsdom@29.7.0 -g && npm i @learnpack/learnpack@5.0.29 -g && learnpack plugins:install @learnpack/node@1.1.15"
+	"onCreateCommand": "npm i jest@29.7.0 jest-environment-jsdom@29.7.0 -g && npm i @learnpack/learnpack@5.0.29 -g && learnpack plugins:install @learnpack/node@1.1.15 && learnpack plugins:install @learnpack/python@1.0.0 && python3 -m pip install --upgrade pip && python3 -m pip install -r python/requirements.txt"
 
 
 	// Use 'postCreateCommand' to run commands after the container is created.
