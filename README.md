@@ -56,7 +56,6 @@ cd python
 ```bash
 learnpack start
 ```
-
 ## Notes
 
 - Each language folder contains its own `learn.json`.

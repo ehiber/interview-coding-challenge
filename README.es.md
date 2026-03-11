@@ -56,7 +56,6 @@ cd python
 ```bash
 learnpack start
 ```
-
 ## Notas
 
 - Cada carpeta de lenguaje contiene su propio `learn.json`.
