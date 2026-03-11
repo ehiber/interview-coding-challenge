@@ -9,30 +9,13 @@
 *Estas instrucciones estan disponibles en [espanol](./README.es.md).*
 <!-- endhide -->
 
-Practice interview-style coding challenges with two LearnPack variants: JavaScript and Python.
-
-## Choose your language first
-
-This repository now contains:
-
-1. `javascript/`
-2. `python/`
-
-Pick one language, move into that folder, and start LearnPack there.
+Practice interview-style coding challenges with progressive exercises and isolated auto-evaluation in JavaScript.
 
 ## One-click setup (recommended)
 
-Open in [Codespaces](https://codespaces.new/), choose a language folder, and run:
+Open in [Codespaces](https://codespaces.new/) and run:
 
 ```bash
-cd javascript
-learnpack start
-```
-
-Or:
-
-```bash
-cd python
 learnpack start
 ```
 
@@ -42,21 +25,27 @@ learnpack start
 ```bash
 npm i @learnpack/learnpack -g
 ```
-2. Choose a language and move into that folder:
-```bash
-cd javascript
-```
-
-Or:
-
-```bash
-cd python
-```
-3. Follow the language-specific setup notes in that folder and then run:
+2. From the folder where `learn.json` exists, run:
 ```bash
 learnpack start
 ```
+
+## Exercise structure
+
+The repository includes:
+
+1. `exercises/00-welcome`: Introductory readme-only step.
+2. `exercises/01-...` to `exercises/15-...`: Coding challenges.
+
+Most exercise folders include:
+
+1. `app.js`: Starter file for students.
+2. `README.md`: Instructions in English.
+3. `README.es.md`: Instrucciones en espanol.
+4. `tests.js`: Exercise test entry.
+5. `solution.hide.js` (on selected exercises): Hidden reference solution.
+
 ## Notes
 
-- Each language folder contains its own `learn.json`.
-- Read [javascript/README.md](./javascript/README.md) or [python/README.md](./python/README.md) for language-specific requirements.
+- Keep `README.md` and `README.es.md` synchronized when content changes.
+- Student files are intentionally unsolved in `app.js`.

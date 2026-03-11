@@ -1,30 +1,16 @@
-# `00` Choose Your Language
+# `00` Welcome
 
 Welcome to **Interview Coding Challenges**.
 
-This repository contains two separate LearnPack variants:
+This project is a set of practical coding exercises designed to prepare you for technical interviews, from warm-up problems to common interview patterns.
 
-1. `javascript/`
-2. `python/`
+## How to work through the challenges
 
-## What to do next
+1. Open each exercise folder in order and read its instructions.
+2. Write your solution in the corresponding `app.js` file.
+3. Use the **Execute** option whenever you want to run your code and inspect output.
+4. Run **Test** to validate your solution.
+5. Move to the next challenge when tests pass.
 
-Choose one language first, then open a terminal and start LearnPack from that folder:
+Focus on writing clean, correct solutions first. Then improve readability and efficiency as if you were in a real interview.
 
-```bash
-cd javascript
-learnpack start
-```
-
-Or:
-
-```bash
-cd python
-learnpack start
-```
-
-## Important
-
-- This root tutorial is only a language selector for Codespaces and LearnPack.
-- The actual exercises live inside `javascript/` and `python/`.
-- Use only one language track at a time.
