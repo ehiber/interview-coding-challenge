@@ -1,0 +1,41 @@
+{
+  "slug": "interview-coding-challenges-selector",
+  "duration": 1,
+  "difficulty": "beginner",
+  "title": {
+    "us": "Interview Coding Challenges Language Selector",
+    "es": "Selector de Lenguaje para Interview Coding Challenges"
+  },
+  "description": {
+    "us": "Choose whether you want to complete the Interview Coding Challenges in JavaScript or Python.",
+    "es": "Elige si quieres completar Interview Coding Challenges en JavaScript o en Python."
+  },
+  "projectType": "tutorial",
+  "template_url": "self",
+  "autoPlay": true,
+  "technologies": [
+    "javascript",
+    "python",
+    "algorithms",
+    "technical interview"
+  ],
+  "videoSolutions": false,
+  "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+  "graded": false,
+  "grading": null,
+  "localhostOnly": true,
+  "editor": {
+    "version": "5.0",
+    "agent": "vscode",
+    "mode": "extension"
+  },
+  "delivery": {
+    "formats": [
+      "no_delivery"
+    ]
+  },
+  "translations": [
+    "es",
+    "en"
+  ]
+}
