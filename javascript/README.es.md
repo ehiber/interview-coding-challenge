@@ -9,30 +9,13 @@
 *These instructions are available in [english](./README.md).*
 <!-- endhide -->
 
-Practica desafios de codigo tipo entrevista con dos variantes de LearnPack: JavaScript y Python.
-
-## Elige tu lenguaje primero
-
-Este repositorio ahora contiene:
-
-1. `javascript/`
-2. `python/`
-
-Primero debes decidir un lenguaje, entrar a esa carpeta y ejecutar LearnPack alli.
+Practica desafios de codigo tipo entrevista con ejercicios progresivos y autoevaluacion aislada en JavaScript.
 
 ## Instalacion en un clic (recomendado)
 
-Abre en [Codespaces](https://codespaces.new/), elige una carpeta de lenguaje y ejecuta:
+Abre en [Codespaces](https://codespaces.new/) y ejecuta desde esta carpeta `javascript/`:
 
 ```bash
-cd javascript
-learnpack start
-```
-
-O:
-
-```bash
-cd python
 learnpack start
 ```
 
@@ -42,21 +25,7 @@ learnpack start
 ```bash
 npm i @learnpack/learnpack -g
 ```
-2. Elige un lenguaje y entra en esa carpeta:
-```bash
-cd javascript
-```
-
-O:
-
-```bash
-cd python
-```
-3. Sigue las notas de instalacion especificas de esa carpeta y luego ejecuta:
+2. Asegurate de estar dentro de la carpeta `javascript/`, donde existe este `learn.json`, y ejecuta:
 ```bash
 learnpack start
 ```
-## Notas
-
-- Cada carpeta de lenguaje contiene su propio `learn.json`.
-- Lee [javascript/README.es.md](./javascript/README.es.md) o [python/README.es.md](./python/README.es.md) para ver los requisitos de cada variante.
